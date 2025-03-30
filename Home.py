@@ -14,12 +14,12 @@ load_dotenv()
 recordings_folder_path = "data/recordings"
 sender_email = os.getenv('SENDER_EMAIL')
 sender_password = os.getenv('SENDER_PASSWORD')
-recipient_email = 'minyiii.sugakookiesx@gmail.com'
+recipient_email = 'xxx@gmail.com'
 
 #Motion detection variables
 final_width = 1280
 final_height = 720
-binary_threshold = 60
+binary_threshold = 100
 min_contour_area_to_trigger_detection = 10000
 max_small_object_area = 2000
 
@@ -27,7 +27,7 @@ max_small_object_area = 2000
 run = False
 reference_frame = None
 movement_detected = False
-recording_frames = []  # To store 150 frames for saving
+recording_frames = []  # To store 300 frames for saving
 frame_count = 0
 
 #Create recordings folder
