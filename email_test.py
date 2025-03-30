@@ -42,7 +42,7 @@ if __name__ == '__main__':
     _ = send_email_alert(
         sender_email=sender_email, 
         sender_password=sender_password, 
-        recipient_email='minyiii.sugakookiesx@gmail.com', 
+        recipient_email='xxx@gmail.com', 
         intruder_type='big object', 
         position='right', 
         timestamp='today'
