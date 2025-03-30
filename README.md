@@ -19,8 +19,8 @@ pip install -r requirements.txt
 - Key in a name for your password and note down the 16 character password
 - In the .env file, add in the following
 
-  ``` SENDER_EMAIL = 'your gmail address' ```
-  ``` SENDER_PASSWORD = 'your app password created earlier' ```
+  - ``` SENDER_EMAIL = 'your gmail address' ```
+  - ``` SENDER_PASSWORD = 'your app password created earlier' ```
 (Do not include the ' ' at the sides)
  
 ### App variables - To be customized
