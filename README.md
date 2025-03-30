@@ -20,7 +20,7 @@ pip install -r requirements.txt
 - In the .env file, add in the following
 
   ``` SENDER_EMAIL = 'your gmail address' ```
-  ``` SENDER_PASSWORD = 'your app password created earlier'
+  ``` SENDER_PASSWORD = 'your app password created earlier' ```
 (Do not include the ' ' at the sides)
  
 ### App variables - To be customized
